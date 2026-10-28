@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wreid11.github.io/concrete-leveling-laredo/sitemap.xml
+Sitemap: https://concrete-leveling-laredo-chillzana.vercel.app/sitemap.xml

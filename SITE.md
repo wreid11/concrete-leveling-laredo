@@ -12,4 +12,4 @@
 **Authority:** New domain (GH Pages URL until custom domain). DR ~0, referring domains ~0. Strategy: long-tail exact match only; free on-topic homepage links; Brave sitemap submit on launch day.
 **Never:** invent reviews, testimonials, or a track record; publish a fake street address or phone number; claim to be a contractor (we are a referral service); guarantee prices without a written quote; touch foundation-repair medical claims (lifting a house slab) — refer out instead.
 
-**Canonical URL:** `https://wreid11.github.io/concrete-leveling-laredo/` (swap when custom domain / Vercel domain is live — see HANDOFF).
+**Canonical URL:** `https://concrete-leveling-laredo-chillzana.vercel.app/` (swap when custom domain / Vercel domain is live — see HANDOFF).

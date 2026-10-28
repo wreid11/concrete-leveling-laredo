@@ -10,7 +10,7 @@
 - 2026-10-28: TES-11 approved copy committed (`ab4ce77`), pushed, and **verified live** on GitHub Pages — exact-match money-page H1, $3–$25/sq ft honest price ranges, FAQ + FAQPage in sync
 
 ## Live URL
-- https://wreid11.github.io/concrete-leveling-laredo/ (GitHub Pages, main branch)
+- https://concrete-leveling-laredo-chillzana.vercel.app/ (GitHub Pages, main branch)
 - Vercel migration: board chose **Composio** as the connection provider; Composio channel is connected, but **Vercel app authorization inside Composio is not yet verified** — migration starts once that gate clears
 
 ## Waiting on decisions
