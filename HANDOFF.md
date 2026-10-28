@@ -10,7 +10,7 @@
 - 2026-10-28: TES-11 approved copy committed (`ab4ce77`), pushed, and **verified live** on GitHub Pages — exact-match money-page H1, $3–$25/sq ft honest price ranges, FAQ + FAQPage in sync
 
 ## Live URL
-- **https://concrete-leveling-laredo-chillzana.vercel.app/** (Vercel, production, main branch — migrated 2026-10-28, deploy of commit `d1395d3`)
+- **https://concretelevelinglaredo.com/** (Vercel, production, main branch — migrated 2026-10-28, deploy of commit `d1395d3`)
 - Canonicals, `sitemap.xml`, `robots.txt`, and schema `@id`s all point at the Vercel host
 - GitHub Pages still serves with cross-host canonicals (harmless; search engines yield to the canonical host)
 - Vercel project: `concrete-leveling-laredo`; SSO deployment protection disabled project-wide (it was serving `x-robots-tag: noindex`)
