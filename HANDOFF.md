@@ -1,12 +1,13 @@
 # HANDOFF.md — Laredo Concrete Leveling
 
-**Last updated:** 2026-10-27 (site build + launch)
+**Last updated:** 2026-10-28 (TES-11 approved copy inserted — see LEDGER)
 
 ## Shipped
 - 4 pages live: `/`, `/concrete-leveling-laredo-tx/`, `/get-a-quote/`, `/about/`
 - Schema: LocalBusiness on all pages, Service + FAQPage on money page, WebSite on hub
 - `sitemap.xml` + `robots.txt`, mobile-responsive, GBP footer mention
 - Quote form: client-side validation; posts JSON to `LEAD_ENDPOINT` when set; otherwise one-click pre-filled email fallback (nothing silently lost)
+- 2026-10-28: all 4 pages updated to the TES-11 approved copy (`site-content-laredo`) per TES-12 — **redeploy pending**; money page H1 is now the exact-match keyword, price table carries the $3–$25/sq ft honest ranges
 
 ## Live URL
 - https://wreid11.github.io/concrete-leveling-laredo/ (GitHub Pages, main branch)
