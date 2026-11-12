@@ -106,7 +106,18 @@
   </div>
 </footer>
 
+<script src="../analytics.js"></script>
 <script>
+// Track gate page view (GA4 + Vercel Web Analytics)
+document.addEventListener('DOMContentLoaded', () => {
+  if (window.gtag) {
+    window.gtag('event', 'checklist_gate_view', {
+      page_location: window.location.href,
+      page_title: document.title
+    });
+  }
+});
+
 document.getElementById('gateForm').addEventListener('submit', async (e) => {
   e.preventDefault();
   const email = document.getElementById('email').value;
@@ -129,6 +140,14 @@ document.getElementById('gateForm').addEventListener('submit', async (e) => {
     const data = await res.json();
 
     if (res.ok) {
+      // Track successful gate conversion in GA4
+      if (window.gtag) {
+        window.gtag('event', 'checklist_gate_submit', {
+          page_location: window.location.href,
+          value: 1
+        });
+      }
+
       successMsg.style.display = 'block';
       document.getElementById('email').value = '';
       submitBtn.textContent = 'Get Checklist →';
@@ -149,11 +168,6 @@ document.getElementById('gateForm').addEventListener('submit', async (e) => {
     submitBtn.textContent = 'Get Checklist →';
   }
 });
-
-// Track event in GA4 if available
-if (window.gtag) {
-  window.gtag('event', 'checklist_gate_view', { page_location: window.location.href });
-}
 </script>
 </body>
 </html>
